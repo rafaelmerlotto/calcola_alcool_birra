@@ -7,6 +7,6 @@ function calcolo(event){
     const fg = form.querySelector('.fg').value;
     const somma = (og - fg) / 7.5 + 0.5 ;
     console.log(somma.toFixed(1))
-    risultato.innerHTML = `<p>La tua birra avrà ${somma.toFixed(1)}% di alcool 🍺</p>`
+    risultato.innerHTML = `<p>La tua birra avrà ${somma.toFixed(1)}% di alcool </p>`
 }
 form.addEventListener('submit', calcolo);
